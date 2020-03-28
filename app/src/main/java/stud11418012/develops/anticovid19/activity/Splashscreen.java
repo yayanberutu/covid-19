@@ -1,4 +1,4 @@
-package stud11418012.develops.anticovid19;
+package stud11418012.develops.anticovid19.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import stud11418012.develops.anticovid19.R;
 
 public class Splashscreen extends AppCompatActivity {
 
@@ -24,7 +26,15 @@ public class Splashscreen extends AppCompatActivity {
             }
         }, 3000);
 
-    btnCek = findViewById(R.id.button1);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                final Intent intent = new Intent(getApplicationContext(), Riwayat.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 3000);
+        btnCek = findViewById(R.id.button1);
         btnCek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

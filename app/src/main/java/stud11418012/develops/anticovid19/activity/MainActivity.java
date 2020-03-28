@@ -1,4 +1,4 @@
-package stud11418012.develops.anticovid19;
+package stud11418012.develops.anticovid19.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +18,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
+
+import stud11418012.develops.anticovid19.DataListAdapter;
+import stud11418012.develops.anticovid19.DataViewModel;
+import stud11418012.develops.anticovid19.R;
 
 public class MainActivity extends AppCompatActivity {
 

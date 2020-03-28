@@ -15,7 +15,7 @@ public class DataListAdapter extends RecyclerView.Adapter<DataListAdapter.DataVi
     private final LayoutInflater mInflater;
     private List<Data> mDatas;
 
-    DataListAdapter(Context context) { mInflater = LayoutInflater.from(context); }
+    public DataListAdapter(Context context) { mInflater = LayoutInflater.from(context); }
 
     @Override
     public DataViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -34,7 +34,7 @@ public class DataListAdapter extends RecyclerView.Adapter<DataListAdapter.DataVi
         }
     }
 
-    void setDatas(List<Data> datas){
+    public void setDatas(List<Data> datas){
         mDatas = datas;
         notifyDataSetChanged();
     }
