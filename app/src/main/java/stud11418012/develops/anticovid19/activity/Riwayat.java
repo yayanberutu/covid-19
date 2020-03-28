@@ -15,30 +15,8 @@ public class Riwayat extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_riwayat);
-//        AppDatabase db = Room.databaseBuilder(getApplicationContext(), AppDatabase.class,"biodata").allowMainThreadQueries().build();
-//        if (db.biodataDao().getCount() == 0){
-//            Intent intent = new Intent(getApplicationContext(), Biodata.class);
-//            startActivity(intent);
-//        }
+
     }
 
-    public boolean onCreateOptionsMenu(Menu menu){
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_main, (android.view.Menu) menu);
 
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId()==R.id.about){
-            startActivity(new Intent(this, About.class));
-        } else if (item.getItemId() == R.id.uji) {
-            startActivity(new Intent(this, Pengujian.class));
-        } else if (item.getItemId() == R.id.bio) {
-            startActivity(new Intent(this, Biodata.class));
-        }
-
-        return true;
-    }
 }
