@@ -10,18 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".DataBaru"></activity>
-        <activity android:name=".NewwData" />
         <activity android:name=".About" />
         <activity android:name=".Biodata" />
         <activity android:name=".Data" />
         <activity android:name=".Riwayat" />
-        <activity android:name=".Splashscreen" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 

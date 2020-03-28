@@ -15,7 +15,7 @@ public class Splashscreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
 
-    btnCek = findViewById(R.id.btnCek);
+    btnCek = findViewById(R.id.button1);
         btnCek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

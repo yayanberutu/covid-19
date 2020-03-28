@@ -27,7 +27,7 @@ public class Data implements Serializable {
     @ColumnInfo(name = "Jenis Kelamin")
     String jeniskelamin;
 
-
+    public Data(){}
     public Data(String datas) {
         nim = "11418012";
         nama= "Jessica";
