@@ -17,14 +17,6 @@ public class Splashscreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(new Intent(getApplicationContext(), Riwayat.class));
-                finish();
-            }
-        }, 3000);
 
         new Handler().postDelayed(new Runnable() {
             @Override
