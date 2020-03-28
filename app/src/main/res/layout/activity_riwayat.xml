@@ -18,4 +18,49 @@
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:text="Senin, 22 Maret 2000"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:text="Rendah"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="300dp">
+    </TextView>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:text="Senin, 22 Maret 2000"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a1"
+        android:text="Sedang"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="300dp">
+    </TextView>
+
+
 </RelativeLayout>

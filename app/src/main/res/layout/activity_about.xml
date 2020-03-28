@@ -4,54 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".About">
 
-        <TextView
-            android:id="@+id/about"
-            android:textSize="30dp"
-            android:text="About"
-            android:layout_marginTop="20dp"
-            android:textStyle="bold"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
-            />
+        <LinearLayout
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="About"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold">
+                </TextView>
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/nim"
-            android:layout_width="200dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="100dp"
-            android:text="@string/nim"
-            android:layout_marginLeft="20dp"
-            android:textSize="25dp" />
+        <LinearLayout
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/text1"
+            android:weightSum="0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/nim"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold">
+                </TextView>
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/nama"
-            android:layout_width="200dp"
-            android:layout_height="40dp"
-            android:text="@string/nama"
-            android:textSize="25dp"
-            android:layout_marginLeft="20dp"
-            android:layout_below="@id/nim"
-            />
-        <TextView
-            android:id="@+id/ttl"
-            android:layout_width="200dp"
-            android:layout_height="40dp"
-            android:text="@string/ttl"
-            android:textSize="25dp"
-            android:layout_marginLeft="20dp"
-            android:layout_below="@id/nama"
-            />
-        <TextView
-            android:id="@+id/alamat"
-            android:layout_width="350dp"
-            android:layout_height="40dp"
-            android:text="@string/alamat"
-            android:textSize="25dp"
-            android:layout_marginLeft="20dp"
-            android:layout_below="@id/ttl"
-            />
+        <LinearLayout
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/text2"
+            android:weightSum="0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nama"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold">
+                </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/text3"
+            android:weightSum="0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ttl"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold">
+                </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/text4"
+            android:weightSum="0">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alamat"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold">
+                </TextView>
+        </LinearLayout>
+
 
 </RelativeLayout>
