@@ -1,14 +1,16 @@
-package stud11418012.develops.anticovid19;
+package stud11418012.develops.anticovid19.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Riwayat extends AppCompatActivity {
+import stud11418012.develops.anticovid19.R;
+
+public class Biodata extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_riwayat);
+        setContentView(R.layout.activity_biodata);
     }
 }

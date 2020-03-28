@@ -1,4 +1,4 @@
-package stud11418012.develops.anticovid19;
+package stud11418012.develops.anticovid19.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import stud11418012.develops.anticovid19.R;
 
 public class DataBaru extends AppCompatActivity {
     public static final String EXTRA_REPLY =
