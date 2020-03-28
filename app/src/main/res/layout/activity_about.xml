@@ -4,13 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     android:orientation="vertical"
-    tools:context=".About">
-=======
     tools:context=".activity.About">
->>>>>>> df1e7d74ec146fa2af56ee6a8771c7d03359964f
-
         <LinearLayout
             android:id="@+id/text1"
             android:layout_width="match_parent"

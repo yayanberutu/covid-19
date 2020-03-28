@@ -9,34 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity android:name=".Pengujian"></activity>
-        <activity android:name=".DataBaru" />
-        <activity android:name=".About" />
-        <activity android:name=".Biodata" />
-        <activity android:name=".Data" />
-        <activity android:name=".Riwayat" />
-        <activity android:name=".Splashscreen">
-=======
         <activity android:name=".activity.DataBaru"></activity>
         <activity android:name=".activity.About" />
         <activity android:name=".activity.Biodata" />
-        <activity android:name=".room.Data" />
         <activity android:name=".activity.Riwayat" />
         <activity android:name=".activity.Splashscreen">
->>>>>>> df1e7d74ec146fa2af56ee6a8771c7d03359964f
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity android:name=".MainActivity"></activity>
-=======
         <activity android:name=".activity.MainActivity">
         </activity>
->>>>>>> df1e7d74ec146fa2af56ee6a8771c7d03359964f
+
     </application>
 
 </manifest>
