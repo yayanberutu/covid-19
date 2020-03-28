@@ -21,6 +21,7 @@ public class Pengujian extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Biodata anda harus diisi terlebih dahulu", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(getApplicationContext(), Biodata.class);
             startActivity(intent);
+            finish();
         }
     }
 }
