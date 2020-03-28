@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Splashscreen">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="365dp"
+        android:background="#FF0000"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/del"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="365dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Cek Diri Anda"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/a"
+            android:layout_marginTop="200dp"
+            android:text="@string/texta"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

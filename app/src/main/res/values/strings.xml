@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AntiCOVID19</string>
+    <string name="texta">Dari Siborongborong Untuk Indonesia</string>
+    <string name="Nama">Nama</string>
+    <string name="jk">Jenis Kelamin</string>
+    <string name="nim"> NIM  :    11418012</string>
+    <string name="nama">Nama :    Jessica Siburian</string>
+    <string name="ttl"> TTL  :    Parapat, 20 Desember 2000</string>
+    <string name="alamat">Alamat : Siborongborong</string>
+    <string name="action_settings">Settings</string>
+    <string name="biodata">Biodata</string>
+    <string name="pengujian">Pengujian</string>
+    <string name="about">About</string>
+    <string name="empty_not_saved" />
+</resources>

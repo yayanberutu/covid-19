@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+        <TextView
+            android:id="@+id/about"
+            android:textSize="30dp"
+            android:text="About"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/nim"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="@string/nama"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/nim"
+            />
+        <TextView
+            android:id="@+id/ttl"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="@string/ttl"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/nama"
+            />
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:text="@string/alamat"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/ttl"
+            />
+
+</RelativeLayout>

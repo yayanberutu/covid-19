@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="stud11418012.develops.myapplication.MainActivity">
+    <item
+        android:id="@+id/bio"
+        android:orderInCategory="100"
+        android:title="@string/biodata"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/uji"
+        android:orderInCategory="100"
+        android:title="@string/pengujian"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="@string/about"
+        app:showAsAction="never" />
+</menu>
