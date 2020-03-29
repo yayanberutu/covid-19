@@ -23,7 +23,7 @@
 
         <activity android:name=".activity.Biodata"
             android:label="Biodata"/>
-        <activity android:name=".activity.Pengujian"
+        <activity android:name=".activity.Pengecekan"
             android:label="Pengujian"/>
         <activity android:name=".activity.About"
             android:label="About"></activity>

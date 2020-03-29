@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         if (item.getItemId()==R.id.about){
             startActivity(new Intent(this, About.class));
         } else if (item.getItemId() == R.id.uji) {
-            startActivity(new Intent(this, Pengujian.class));
+            startActivity(new Intent(this, Pengecekan.class));
         } else if (item.getItemId() == R.id.bio) {
             startActivity(new Intent(this, Biodata.class));
         }

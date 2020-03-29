@@ -26,7 +26,7 @@ public class Menu extends AppCompatActivity {
         }else if (item.getItemId()== R.id.about){
             startActivity(new Intent(this, About.class));
         }else if (item.getItemId()==R.id.uji){
-            startActivity(new Intent(this, Pengujian.class));
+            startActivity(new Intent(this, Pengecekan.class));
         }
         return true;
     }
