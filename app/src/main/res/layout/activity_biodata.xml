@@ -32,14 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textview_nama"
         android:ems="10"
-<<<<<<< HEAD
-        android:hint="" ><requestFocus />
-=======
-        android:hint="nama anda" >
-
+        android:hint="" >
         <requestFocus />
-
->>>>>>> 9e430d0ac12e1647535d89b004a942353fffbfdf
+        <requestFocus />
     </EditText>
     <TextView
         android:id="@+id/textview_jk"
@@ -79,16 +74,11 @@
         android:textStyle="bold" />
 
     <EditText
-<<<<<<< HEAD
         android:id="@+id/alamat"
-=======
-        android:id="@+id/edittext_jk"
->>>>>>> 9e430d0ac12e1647535d89b004a942353fffbfdf
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textview_alamat"
         android:ems="10"
-<<<<<<< HEAD
         android:hint="" ><requestFocus />
     </EditText>
 
@@ -101,10 +91,7 @@
         android:text="Tempat/Tanggal Lahir"
         android:textSize="15sp"
         android:textStyle="bold" />
-=======
         android:hint="jenis kelamin" >
->>>>>>> 9e430d0ac12e1647535d89b004a942353fffbfdf
-
     <EditText
         android:id="@+id/ttl"
         android:layout_width="match_parent"
@@ -119,11 +106,7 @@
         android:layout_width="100dp"
         android:layout_height="40dp"
         android:text="Save"
-<<<<<<< HEAD
         android:layout_below="@id/ttl"
-=======
-        android:layout_below="@id/edittext_jk"
->>>>>>> 9e430d0ac12e1647535d89b004a942353fffbfdf
         android:layout_marginTop="10dp"
         android:layout_marginLeft="300dp"/>
 

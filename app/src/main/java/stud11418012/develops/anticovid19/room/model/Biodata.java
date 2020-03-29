@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey;
 
 import java.io.Serializable;
 
-@Entity(tableName = "tUser")
+@Entity(tableName = "biodata")
 public class Biodata implements Serializable {
 
     @PrimaryKey(autoGenerate = true)
@@ -18,15 +18,12 @@ public class Biodata implements Serializable {
     @ColumnInfo(name = "jenis_kelamin")
     public String jk;
 
-<<<<<<< HEAD
     @ColumnInfo(name = "alamat")
     public String alamat;
 
     @ColumnInfo(name = "ttl")
     public String ttl;
 
-=======
->>>>>>> 9e430d0ac12e1647535d89b004a942353fffbfdf
     public int getId() {
         return id;
     }
@@ -50,7 +47,6 @@ public class Biodata implements Serializable {
     public void setJk(String jk) {
         this.jk = jk;
     }
-<<<<<<< HEAD
 
     public String getAlamat() {
         return alamat;
@@ -67,6 +63,5 @@ public class Biodata implements Serializable {
     public void setTtl(String ttl) {
         this.ttl = ttl;
     }
-=======
->>>>>>> 9e430d0ac12e1647535d89b004a942353fffbfdf
+
 }
