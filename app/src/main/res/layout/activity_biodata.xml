@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.Biodata">
+    tools:context=".activity.BiodataActivity">
 
     <TextView
         android:id="@+id/bi"
@@ -27,34 +27,76 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edittext_nama"
+        android:id="@+id/nama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textview_nama"
         android:ems="10"
-        android:hint="" >
-
-        <requestFocus />
-
+        android:hint="" ><requestFocus />
     </EditText>
     <TextView
         android:id="@+id/textview_jk"
-        android:layout_below="@+id/edittext_nama"
+        android:layout_below="@+id/nama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/jk"
         android:textSize="15sp"
+        android:textStyle="bold"/>
+      <RadioGroup
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/jk"
+          android:layout_below="@id/textview_jk">
+
+          <RadioButton
+              android:id="@+id/pria"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:checked="true"
+              android:text="@string/pria" />
+
+          <RadioButton
+              android:id="@+id/wanita"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/wanita" />
+      </RadioGroup>
+    <TextView
+        android:layout_below="@id/jk"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textview_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/edittext_nama2"
+        android:id="@+id/alamat"
         android:layout_width="match_parent"
-        android:layout_below="@+id/textview_jk"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_alamat"
         android:ems="10"
-        android:hint="" >
+        android:hint="" ><requestFocus />
+    </EditText>
 
-        <requestFocus />
+    <TextView
+        android:layout_below="@id/alamat"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textview_ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat/Tanggal Lahir"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ttl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_ttl"
+        android:ems="10"
+        android:hint="" ><requestFocus />
     </EditText>
 
     <Button
@@ -62,7 +104,8 @@
         android:layout_width="100dp"
         android:layout_height="40dp"
         android:text="Save"
-        android:layout_below="@id/edittext_nama2"
+        android:layout_below="@id/ttl"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="300dp"/>
+
 </RelativeLayout>

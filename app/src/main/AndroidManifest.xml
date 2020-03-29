@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.DataBaru"></activity>
+        <activity android:name=".activity.DataBaru" />
         <activity android:name=".activity.Riwayat" />
         <activity android:name=".activity.Splashscreen">
             <intent-filter>
@@ -18,15 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity">
-        </activity>
-
-        <activity android:name=".activity.Biodata"
-            android:label="Biodata"/>
-        <activity android:name=".activity.Pengujian"
-            android:label="Pengujian"/>
-        <activity android:name=".activity.About"
-            android:label="About"></activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.BiodataActivity"
+            android:label="Biodata" />
+        <activity
+            android:name=".activity.Pengujian"
+            android:label="Pengujian" />
+        <activity
+            android:name=".activity.About"
+            android:label="About" />
     </application>
 
 </manifest>

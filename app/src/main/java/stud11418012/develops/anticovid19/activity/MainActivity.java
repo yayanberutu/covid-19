@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (item.getItemId() == R.id.uji) {
             startActivity(new Intent(this, Pengujian.class));
         } else if (item.getItemId() == R.id.bio) {
-            startActivity(new Intent(this, Biodata.class));
+            startActivity(new Intent(this, BiodataActivity.class));
         }
         return true;
     }

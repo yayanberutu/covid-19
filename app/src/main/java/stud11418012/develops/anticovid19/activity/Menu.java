@@ -15,14 +15,10 @@ public class Menu extends AppCompatActivity {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.activity_riwayat);
     }
-        //public boolean onCreateOptionMenu(Menu menu){
-          //  MenuInflater inflater = getMenuInflater();
-            //inflater.inflate(R.menu.menu_main, menu);
-            //return true;
-        //}
+
     public boolean onOptionsItemSelected(MenuItem item){
         if (item.getItemId()==R.id.bio){
-            startActivity(new Intent(this, Biodata.class));
+            startActivity(new Intent(this, BiodataActivity.class));
         }else if (item.getItemId()== R.id.about){
             startActivity(new Intent(this, About.class));
         }else if (item.getItemId()==R.id.uji){
